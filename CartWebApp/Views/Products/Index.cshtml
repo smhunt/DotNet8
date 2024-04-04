@@ -1,0 +1,17 @@
+@model IEnumerable<CartWebApp.Models.Product>
+
+<h2>Products</h2>
+
+<ul>
+    @foreach (var product in Model)
+    {
+        <li>
+            <strong>@product.Name</strong> - @product.Price
+            <form asp-controller="Cart" asp-action="AddToCart" method="post">
+                <input type="hidden" name="productId" value="@product.Id" />
+                <input type="number" name="quantity" value="1" min="1" />
+                <input type="submit" value="Add to Cart" />
+            </form>
+        </li>
+    }
+</ul>

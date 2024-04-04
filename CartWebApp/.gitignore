@@ -1,0 +1,114 @@
+# Binaries and intermediate files
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.der
+*.pfx
+*.publishsettings
+
+# Visual Studio files
+.vs/
+.vscode/
+*.njsproj
+*.slnx.sqlite
+*.suo
+*.user
+*.userosscache
+*.vshost.*
+*.vspscc
+*_i.c
+*_p.c
+*.[Cc][Ll][Oo][Pp]
+*.[Cc][Aa][Cc][Hh][Ee]
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.der
+*.pfx
+*.publishsettings
+*.[Pp][Dd][Bb]
+
+# Web publish script output files
+*.Publish.xml
+*.pubxml
+*.pubxml.user
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Rider
+.idea/
+
+# User-specific files
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+
+# Logs
+*.log
+logs/
+NLog*.txt
+NLog*.csv
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Nn]ode_modules/
+Generated_Code/   # added if you're using RIA Services
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Tooling
+_ReSharper*/
+_TeamCity*
+
+# Legacy projects
+*.csproj.user
+*.kproj
+*.csproj
+*.sln
+*.suo
+*.cache
+*.dbmdl
+*.dbproj.schemaview
+
+# NuGet packages
+packages/
+*.nupkg
+# Exclude restore packages
+!**/packages/build/
+
+# npm package files
+node_modules/
+
+# Azure Functions local settings file
+local.settings.json

@@ -1,0 +1,35 @@
+@model Checkout
+
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+<h2>Checkout</h2>
+
+<form asp-action="Checkout" method="post">
+    <div class="form-group">
+        <label asp-for="FirstName">First Name</label>
+        <input asp-for="FirstName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="LastName">Last Name</label>
+        <input asp-for="LastName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Address">Address</label>
+        <input asp-for="Address" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="City">City</label>
+        <input asp-for="City" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="State">State</label>
+        <input asp-for="State" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ZipCode">Zip Code</label>
+        <input asp-for="ZipCode" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
